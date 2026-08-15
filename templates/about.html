@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}
+About - Student Management System
+{% endblock %}
+
+{% block content %}
+
+<h2>About the Project</h2>
+
+<p>
+    The Student Management System is a Django application
+    developed as part of our Django Web Development Bootcamp.
+</p>
+
+<p>
+    In future sessions, this application will be connected
+    to a database and will support student management operations.
+</p>
+
+<a href="{% url 'model' %}">Back to Home</a>
+
+{% endblock %}

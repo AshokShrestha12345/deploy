@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home - Student Management System
+{% endblock %}
+
+{% block content %}
+
+<h2>Welcome</h2>
+
+<p>
+    Welcome to the Student Management System.
+</p>
+
+<p>
+    This application is being developed during our
+    Django Web Development Bootcamp.
+</p>
+<a href="{% url 'about' %}">View Students</a>
+<a href="{% url 'model' %}">Back to Home</a>
+
+
+{% endblock %}
